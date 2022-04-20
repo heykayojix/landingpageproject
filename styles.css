@@ -1,0 +1,181 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+/* Section 1 */
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background: #1f2937;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text1,
+a {
+  color: #e5e7eb;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-text1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+}
+
+button {
+  background: #3882f6;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #3882f6;
+  margin-top: 18px;
+  color: #f9faf9;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* section2 */
+
+.heading {
+  text-align: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.illustrations {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 60px;
+}
+
+.auto img {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.text1 {
+  text-align: center;
+}
+
+/* section 3 (quote) */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px;
+  background: #e5e7eb;
+  /* margin property with value set to auto ensures that the container takes the full width */
+  margin: auto;
+}
+
+.quotetext {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  padding: 200px;
+}
+
+.quote-creditor {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+/* section4 */
+
+.action-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+}
+
+.action-texts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #3882f6;
+  width: 1200px;
+  height: 200px;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.strictly-texts {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+h3,
+.smaller {
+  color: #fff;
+  font-family: "Roboto", arial;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+
+.smaller {
+  margin: 5px 30px 30px 50px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  font-family: "Roboto", arial;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
