@@ -1,3 +1,14 @@
+
+@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .react-multi-carousel-item {
+    flex-shrink: 0 !important;
+  }
+  .react-multi-carousel-track {
+    overflow: visible !important;
+  }
+}
+
+
 body {
   height: 100vh;
   margin: 0;
@@ -102,7 +113,7 @@ a {
   justify-content: space-around;
   padding: 25px;
   background: #e5e7eb;
-  /* margin property with value set to auto ensures that the container takes the full width */
+  /* margin property with value set to auto to ensure that the container takes the full width */
   margin: auto;
 }
 
